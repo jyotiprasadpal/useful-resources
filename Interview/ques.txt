@@ -1,0 +1,181 @@
+
+========================================================================
+
+1. Tell me about yourself
+2. Tell briefly about your projects. Explain in pen and paper.
+3. What is GAC? Why is it used?
+4. What ia an event? Why is it used? How to use them with delegate?
+5. Which namespace is used for SQL objects?
+6. How to establish a database connection?
+7. What is ADO.NET? Tell which control in .NET to be used for displaying 10000 records/rows of data? How to display them efficiently such a 
+   huge number of records?
+8. What is remoting? In which situation is it used? Which feature is introduced in .NET 3.5 to serve the purpose?
+9. What is background worker? Why is it used?
+10.What is thread pooling? 
+11.What is a collection? Have you used custom collection? Suppose you have a custom collection say a collection of person objects. You want to sort 
+   the collection with person age. How to achieve  that? Also, suppose you want to loop through the collection using for each loop? How to achieve 
+   this in a custom collection?
+12.Suppose you have a string say "Hello .NET world". Tell how to reverse the entire line i.e., "world .NET Hello" with and without a single collection object?
+13.How memory allocation and deallocation happens in .NET? What is object aging?
+14.Consider the example:
+
+   	List<int> a = new List<int>();
+    	for(int i = 0; i<10; i++)
+	{
+		a.Items.Add(i);
+	}
+
+	for(int i = 0; i<10; i++)
+	{
+		a.Items.Remove(i);
+	}	
+
+    What is the problem with this code?
+
+15. What is the problem in below code? How to solve the problem?
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int position = 1;           
+            List<int> list = new List<int>();
+
+            for (int i = 0; i < 4; i++)
+            {
+                list.Add(i);
+            }
+
+            for (int i = 0; i < 4; i++)
+            {       
+                //remove elements from even positions
+                list.RemoveAt(position);
+                position++;
+            }
+        }
+    }
+
+Throws System.ArgumentOutOfRangeException. Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+To correct the problem use  
+	    for (int i = 0; i < list.Count; i++)
+            {
+                //remove elements from even positions
+                list.RemoveAt(position);
+                position++;
+            }
+
+16. What are the various uses of Using keyword in C#? Is it possible to use Using statement with any object, e.g., using(MyClass obj =MyClass()){...}
+
+17. Can you tell how to design below method? Use same method to display contents of stack,queue, arraylist
+
+     void M1(...) //should be allowed to pass any collection objects like ArrayList, List, Stack, Queue, etc
+	{
+		//Print each elements of collection
+	}
+
+Ans:  void M1(ICollection coll) //need to pass ICollection type
+        {
+            foreach (var item in coll)
+            {
+                Console.WriteLine(item); 
+            }
+        }
+
+18. Suppose you have elements in an array of elements with values 0 and 1 say int [] intArr = {0,1,0,1,0,1,1}; How do we sort the elements with
+a single for loop and without using any other collection or array?
+
+19. Verify the flag bit in position 3 from MSB in a byte.
+    bool function f(byte x)
+	{
+		.............
+	} 
+
+Ans:
+bool function f(byte x)
+	{
+		byte y = 
+	} 
+Why do we need Finalizer if we implement Dispose pattern?
+
+What is the difference between abstract class and Interface? Give an example how will u write an abstract class using .NET Framework T3-Softwares 4 
+what is Difference beetween Array and Hash Table.? 
+
+
+
+How do you unit test a private method? What are the different ways?
+
+Suppose you have a base class A. B and C are derived from class A. Class B also related with class A with a has-a (aggregation) relationship. 
+Class A has virtual method say print(). This Print() method is overridden in class B and C? Show this in UML class diagram. Write the skeleton code
+in C# showing the implementation of this class diagram.
+
+Suppose you have a base class A. B and C are derived from class A. Class A has virtual method say print(). This Print() method is overridden in 
+class B and C? Explain how runtime polymorhism exists with virtual table (vtable).
+
+Suppose you get a runtime error in constructor of class A. How do you inform consumer of class A that error has occurred? Explain the advantages of 
+each one. What should be the most optimised solution/best practice?
+
+Write a program for calculating the factorial of a number n? Also, solve this problem using recursive technique so that solution is optimised one.
+
+Show how the stack looks like when below code is executed? What are the differences between stack and heap data structure?
+public class A
+{
+	void Print(int x) {Console.Write(x);}
+}
+
+public class MainClass
+{
+	static void Main()
+	{
+		A a = new A();
+		a.Print(5);
+	}
+}
+
+What is the difference between Mutex and Semaphore? What would you use to synchronize when you have 1. two threads and 2. Four threads?
+What is a critical section?
+
+What are the different hash code algortithms that ship with .NET? How to hash a text file?
+
+What are the different collections available in .NET? How do you decide which collection is best for a given scenario in terms of performance? 
+
+What is the difference between Dictionary and Hashtable. How to decide which one to use?
+or, Why Dictionary is preferred over hashtable in C#? 
+
+What would happen if you add an item to list object while iterating through the items in for loop and printing the value? Is it going to print the 
+added item or thrw exception while iterating? 
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int position = 1;           
+            List<int> list = new List<int>();
+
+            for (int i = 0; i < 4; i++)
+            {
+                list.Add(i);
+            }
+
+            for (int i = 0; i < 4; i++)
+            {       
+                //add an element
+                list.Add(position);
+                position++;
+            }
+        }
+    }
+
+How do you design a type that may be placed in a Hashtable/Dictionary collection? Explain with an Employee class. Employee class has name, address and empid
+as properties.
+
+Write code for below requirement.
+"You have class A. A has to notify another class B every 1 sec about the time change. B has to get the changed time from A and then print the time."
+
+What is the difference between API, system call and function/method?
+
+Write a function static string Space(string s) {...} that returns the string with added space between each character. ex. "FRED" should be obtained as 
+"F R E D".
+
+Write a method to copy items from one arraylist or array into other without using any .NET framework method and counter.
+
+
+

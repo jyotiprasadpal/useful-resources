@@ -1,0 +1,118 @@
+
+
+
+googStatic/instance valriables vs local variables
+SQL query practise them
+
+Nullable types
+out and ref parameter, params keyword, etc.
+operator overloading
+What are static variables. explain static keyword.
+multithreading with static variables.
+Runtime polymorphism with interfaces and overriding.
+why string is immutable in .net?
+
+www.WiZiQ.com/classes/
+
+•What does int? mean? Explain the relationship with Nullable.
+Hard questions:
+
+•Explain the following snippet of code: 'from x in collection select new { x.Foo }'. What is the compiler doing? What is the CLR executing?
+•Explain the "yield" keyword. What is the compiler doing internally?
+
+
+8.
+
+•Async pattern
+
+What is the need for inner class?
+
+What is parametric polymorphism?
+2.How would you define an Anonymous Delegates and methods?
+3.How does an Enumerator (IEnumerable & IEnumerator) work ? How does an Iterator work in C# 2.0 ?
+7.
+
+8.How would you choose between a abstract base class and an interface? 
+9.What is MVC how does it differ from MVP ?
+10.What is Dependency Injection / Inversion of Control ?
+11.What Design Patterns are you familiar with ?
+
+
+What is Garbage Collection ? How does it work ? What are generations in GC ?
+How does the generational garbage collector in the .NET CLR manage object lifetime? What is non-deterministic finalization? 
+What is the difference between Finalize() and Dispose()? 
+How is the using() pattern useful? What is IDisposable? How does it support deterministic finalization? 
+Explain the IDisposable pattern and how and when it should be used?
+Memory leaks in .NET (Observer pattern) and the Dispose pattern. How do you find and solve performance problems? 
+
+Why is catch(Exception) almost always a bad idea? 
+What is the difference between Debug.Write and Trace.Write? When should each be used? 
+What is the difference between a Debug and Release build? Is there a significant speed difference? Why or why not? 
+
+
+Explain what is a delegate and show an example of its use.
+What is the difference between a BeginInvoke and an Invoke?
+What are the uses of delegates in c#? Ans: Avoids cross thread exception, Helps event handling
+How would you define a new custom event?
+Explain different ways of calling methods asynchronously.
+
+
+Can attributes be placed on specific parameters to a method? Why is this useful?
+What is the difference between typeof(foo) and myFoo.GetType()? 
+Explain what’s happening in the first constructor: public class c{ public c(string a) : this() {;}; public c() {;} } How is this construct useful? 
+
+ADO.net and SQL server
+=======================
+What is transaction? Why and when do we need it?
+What is the difference between stored procedure and function?
+difference between datasource and database?
+How do we deploy database in the same form from developer to production(client) side? ---mdf file and ldf file
+performance tuning, locking, indexing
+
+
+
+Written Test(.Net) - Goldman sachs
+I dont remember the exact questions but i can give u brief idea what were the questions like.
+I have given the test as the .Net guy.
+As they are using JAVA for the rest of the project, but they are using .Net for Front end (Web , windows application).
+Few concepts or questions or toppics
+-As the reuirement was for UI, front end so all the questions were revolving around that.
+-Dataset
+-DataAdaptor
+-Fill()
+-Outproc(SQL Server , state server)
+-DebugListner
+-Trace
+-Application run mode (define- Debug/Trace)
+-Gridview (ButtonField,CommandField)
+-Viewstate
+-Property to get a column from Dataset.
+-Prepare well on Threading
+-Prepare well on Delegates
+-Design Patterns
+-BinaryTextWriter
+-How to get the root node of a dataset.
+
+Is [STAThread] attribute mandatory on Main() method?
+Write an algortithm to convert a number into word. For example: 12345 should be displayed as 
+"Twelve thousand three hundred forty five". Design the class and show it in UML class daigram and write the code.
+What is the difference between class and object. Explain with real example. Is a telephone receiver set an object? If so, why?
+How can we determine the mouse coordinates in C#.NET without using mouse events?
+What is the difference bewteen component and control? Classify panel, textbox, dataSource as component and control.
+Tell the inheritance hieracrchy of Form class.
+What is GDI?How it works? Where does it paint?
+Puzzle:
+Throw some light on error handling and exception handling.
+What is cohesion and coupling? Give example in code. 
+Explain product/software life cycle.
+
+Functional and nonfunctional requirements.
+MVP/MVC, Design principles, UML relationships, Design patterns, Cohesion, coupling, dependency inversion, etc
+High level design with component diagram.
+What are the basic principles/guidelines of software architecture?
+
+
+Draw the sequence diagram for intercation with timer object.
+What is object pooling? How to restrict a type to have only 5 objects using singleton pattern? After the fifth instance, it should return 
+the first instance.
+

@@ -1,0 +1,48 @@
+
+
+Important Books:
+1.Windows Presentation Foundation Unleashed (WPF) (Paperback)
+  by Adam Nathan ----best book.
+2.Pro WPF in C# 2008: Windows Presentation Foundation with .NET 3.5, Second Edition (Books for Professionals by Professionals)
+3.Pro C# 2008 and the .NET 3.5 Platform, Fourth Edition (Windows.Net) (Hardcover)
+  by Andrew Troelsen 
+4.Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and the Unified Process 
+5.Larman, Craig. Applying UML and Patterns - Third Edition.
+6.Pro LINQ: Language Integrated Query in C# 2008 (Windows.Net) by Jr., Joseph C. Rattz
+7.C# 3.0 in a Nutshell: A Desktop Quick Reference (In a Nutshell (O'Reilly)) (Paperback) by Joseph Albhahari
+8.Sams Teach Yourself LINQ in 24 Hours (Paperback)
+  by Joydip Kanjilal
+
+4.CLR VIA C# APPLIED MS .NET FRAMEWORK PROGRAMMING
+  by JEFFREY RICHTER
+5.Complete Reference c# 3.0 by Herbert Schildt
+6.Head First Design Patterns by Freeman and Freeman
+7.C# Programming Interview Questions, Answers, and Explanations: Programming C# Certification Review Ebook
+8.Cracking the Technical Interview 
+9..net Interview Questions (Paperback - 2008) by Shivprasad Koirala
+
+Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries (Hardcover)  
+Krzysztof Cwalina (Author) 
+Brad Abrams (Author) 
+
+
+SQL books:
+
+1.Expert SQL Server 2005 Development (Paperback)
+by Adam Machanic (Author) Hugo Kornelis (Author) Lara Rubbelke (Author) 
+
+2.MCTS Self-Paced Training Kit (Exam 70-448): Microsoft® SQL Server® 2008 Business Intelligence Development and Maintenance (Self-Paced Training Kits)
+
+3.SQL Server 2005 T-SQL Recipes: A Problem-Solution Approach (A Problem - Solution Approach) (Paperback)
+by Joseph Sack
+  
+4.Beginning SQL Server 2008 for Developers: From Novice to Professional by Robin Dewson
+Robin Dewson (Author) Apress publishers
+
+5.Beginning Database Design: From Novice to Professional by Clare Churcher 
+  Apress publishers
+6.Databases Demystified (Demystified) by Andrew Oppel
+
+7. The Guru's Guide to Transact-SQL by Ken Henderson 
+
+
